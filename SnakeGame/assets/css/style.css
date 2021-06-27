@@ -1,0 +1,15 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+
+canvas{
+    width: 580px;
+    margin: 200px auto;
+    height: 580px;
+    border-radius: 10px ;
+}
+
+.lightgreen{
+    background-color: chartreuse ;
+}
