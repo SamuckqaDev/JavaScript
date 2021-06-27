@@ -16,7 +16,7 @@ let food = {
 
 function createBG() {
     context.fillStyle = "lightgreen";
-    context.fillRect(0, 0, 16 * box, 16 * box); //desenha o retângulo usando x e y e a largura e altura setadas com 
+    context.fillRect(0, 0, 16 * box, 16 * box); 
 }
 
 function createSnake() {
@@ -98,4 +98,4 @@ function inicializeGame() {
     snake.unshift(newHead); // adiciona como primeiro quadradinho da cobrinha;
 }
 
-let jogo = setInterval(inicializeGame, 100);
+let  game = setInterval(inicializeGame, 100);
